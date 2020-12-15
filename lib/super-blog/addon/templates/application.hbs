@@ -1,0 +1,10 @@
+{{log queryParamTest}}
+
+<h3>Super-blog engine</h3>
+<LinkTo @route="application">Go to engine main route</LinkTo>
+<br><br>
+<LinkTo @route="detail">Go to engine detail</LinkTo>
+<br><br>
+<button {{action this.updateQueryParamValue}}>Toggle Query param value</button>
+
+{{outlet}}

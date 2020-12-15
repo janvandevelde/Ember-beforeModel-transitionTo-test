@@ -1,0 +1,15 @@
+<nav>
+  Navigation:
+  <LinkTo @route="super-blog">Super-blog (Engine)</LinkTo>
+
+  <LinkTo @route="super-blog-reg-route">Super-blog (regular route)</LinkTo>
+
+  <LinkTo @route="reg-route-no-bm">Regular route (no beforeModel)</LinkTo>
+
+  <LinkTo @route="reg-route-with-bm">Regular route (with beforeModel)</LinkTo>
+</nav>
+
+<div id="main-content">
+  {{outlet}}
+</div>
+

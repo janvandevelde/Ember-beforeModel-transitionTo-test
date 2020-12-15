@@ -1,0 +1,10 @@
+nav {
+  border: 1px solid darkgrey;
+  margin-bottom: 12px;
+  padding: 4px;
+}
+
+#main-content {
+  border: 1px solid darkgrey;
+  padding: 4px;
+}
